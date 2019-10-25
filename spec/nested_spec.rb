@@ -11,7 +11,8 @@ describe "nested hash" do
   
   programmer_hash = {
     :grace_hopper => {
-      :known_for => ""
+      :known_for => "COBOL",
+      :languages => "COBOL", "FORTRAN"
     }
   }
 
