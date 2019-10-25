@@ -20,7 +20,7 @@ describe "nested hash" do
     },
     :dennis_ritchie = {
       :known_for => "UNIX",
-      :languages => "C"
+      :languages => ["C"]
     }
   }
 
