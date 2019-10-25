@@ -50,7 +50,9 @@ end
   end
 
   programmer_hash[:yukihiro_matsumoto] = {
-    :yukihiro_matsumoto => []
+    :yukihiro_matsumoto {
+      :known_for => ""
+    }
   }
 
   describe "#changing_alan" do
