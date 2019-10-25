@@ -10,7 +10,9 @@ describe "nested hash" do
   end
   
   programmer_hash = {
-    :grace_hopper
+    :grace_hopper => {
+      :known_for => ""
+    }
   }
 
   describe "alan_kay_is_known_for" do
