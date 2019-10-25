@@ -49,7 +49,9 @@ end
     end
   end
 
-  programmer_hash[:yukihiro_matsumoto] ""
+  programmer_hash[:yukihiro_matsumoto] = {
+    :yukihiro_matsumoto => []
+  }
 
   describe "#changing_alan" do
     it "operates on the programmer_hash and changes what Alan Kay is known for, returning the newly-changed hash" do
