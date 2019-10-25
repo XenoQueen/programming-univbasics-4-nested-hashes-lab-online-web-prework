@@ -13,8 +13,7 @@ describe "nested hash" do
     :grace_hopper => {
       :known_for => "COBOL",
       :languages => ["COBOL", "FORTRAN"]
-    },
-    
+    }
   }
 
   describe "alan_kay_is_known_for" do
@@ -22,6 +21,11 @@ describe "nested hash" do
       expect(alan_kay_is_known_for).to eq("Object Orientation")
     end
   end
+  
+  alan_kay_is_known_for = {
+    
+  }
+  }
 
   describe "dennis_ritchies_language" do
     it "operates on the programmer_hash and returns the value of Dennis Ritchie's language as a string" do
