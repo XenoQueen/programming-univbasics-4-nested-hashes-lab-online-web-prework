@@ -49,6 +49,8 @@ end
     end
   end
 
+  
+
   describe "#changing_alan" do
     it "operates on the programmer_hash and changes what Alan Kay is known for, returning the newly-changed hash" do
       expect(changing_alan[:alan_kay][:known_for]).to eq("GUI")
