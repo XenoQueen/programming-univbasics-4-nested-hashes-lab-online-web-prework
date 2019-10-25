@@ -98,6 +98,6 @@ end
       :languages => ["C"]
     }
   }
-  
+  programmer_hash[:dennis_ritchie][:languages][1] += "Assembly"
   end
 end
