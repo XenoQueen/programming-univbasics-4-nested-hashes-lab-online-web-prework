@@ -16,7 +16,7 @@ describe "nested hash" do
     },
     :alan_kay => {
       :known_for => "Object Orientation",
-      :languages => [""]
+      :languages => ["Smalltalk", "LISP"]
     }
   }
 
