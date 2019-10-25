@@ -62,7 +62,21 @@ end
     end
   end
 
-  
+   programmer_hash = {
+    :grace_hopper => {
+      :known_for => "COBOL",
+      :languages => ["COBOL", "FORTRAN"]
+    },
+    :alan_kay => {
+      :known_for => "Object Orientation",
+      :languages => ["Smalltalk", "LISP"]
+    },
+    :dennis_ritchie = {
+      :known_for => "UNIX",
+      :languages => ["C"]
+    }
+  }
+    
 
   describe "#adding_to_dennis" do
     it "operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash" do
