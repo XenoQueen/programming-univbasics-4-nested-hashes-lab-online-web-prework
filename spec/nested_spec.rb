@@ -83,4 +83,21 @@ end
       expect(adding_to_dennis[:dennis_ritchie][:languages][1]).to include("Assembly")
     end
   end
+  
+     programmer_hash = {
+    :grace_hopper => {
+      :known_for => "COBOL",
+      :languages => ["COBOL", "FORTRAN"]
+    },
+    :alan_kay => {
+      :known_for => "Object Orientation",
+      :languages => ["Smalltalk", "LISP"]
+    },
+    :dennis_ritchie = {
+      :known_for => "UNIX",
+      :languages => ["C"]
+    }
+  }
+  
+  end
 end
