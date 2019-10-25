@@ -12,8 +12,9 @@ describe "nested hash" do
   programmer_hash = {
     :grace_hopper => {
       :known_for => "COBOL",
-      :languages => "COBOL", "FORTRAN"
-    }
+      :languages => ["COBOL", "FORTRAN"]
+    },
+    
   }
 
   describe "alan_kay_is_known_for" do
