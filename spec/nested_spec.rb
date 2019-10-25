@@ -41,7 +41,7 @@ end
     end
   end
 
-  if programmer_hash[dennis_ritchie][:languages]
+  programmer_hash[dennis_ritchie][:languages]
 
   describe "adding_matz" do 
     it "operates on the programmer_hash and adds a key/value pair to the top level of the hash, returning the newly-added-to hash" do
