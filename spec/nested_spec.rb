@@ -76,7 +76,7 @@ end
       :languages => ["C"]
     }
   }
-    
+    programmer_hash[:alan_kay][:known_for] = "GIU"
 
   describe "#adding_to_dennis" do
     it "operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash" do
