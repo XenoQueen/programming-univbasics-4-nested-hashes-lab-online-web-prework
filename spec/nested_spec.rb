@@ -19,7 +19,8 @@ describe "nested hash" do
       :languages => ["Smalltalk", "LISP"]
     },
     :dennis_ritchie = {
-      
+      :known_for => "UNIX",
+      :language
     }
   }
 
